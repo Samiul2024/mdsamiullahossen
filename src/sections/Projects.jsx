@@ -45,6 +45,148 @@ const projects = [
       "Product management (Add/Edit/Delete)",
     ],
   },
+
+  {
+    name: "AamBari (Full Stack Mango Business Platform)",
+    desc: "A modern SEO-optimized mango business platform for selling fresh chemical-free mangoes directly from Satkhira gardens across Bangladesh. Includes gallery, Facebook reel integration, WhatsApp/Messenger ordering, responsive UI, and conversion-focused landing pages.",
+
+    live: "https://aam-bari.vercel.app/",
+
+    github: {
+      client: "https://github.com/Samiul2024/AamBari-Client",
+      server: "https://github.com/Samiul2024/AamBari-Server",
+    },
+
+    techStack: [
+      "React",
+      "Vite",
+      "TailwindCSS",
+      "React Router",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Vercel",
+      "Framer Motion",
+      "SEO Optimization"
+    ],
+
+    features: [
+      "Modern responsive business landing page",
+      "SEO-ready architecture with sitemap & robots.txt",
+      "Google Search Console integration ready",
+      "Facebook Reel embed gallery",
+      "Fullscreen image preview system",
+      "WhatsApp direct ordering integration",
+      "Messenger direct chat integration",
+      "Floating chat widget for mobile users",
+      "Chemical-free mango business branding",
+      "Trust-focused conversion UI/UX",
+      "Bangla + English content support",
+      "Mobile-first optimized design",
+      "Product showcase & pricing packages",
+      "Contact, Shop & Gallery pages",
+      "Smooth animations and interactive cards"
+    ],
+  },
+  {
+    name: "Sam Cafe (SEO Optimized Cafe Website)",
+    desc: "A modern SEO-focused cafe and restaurant website built for Sam Cafe in Khulna, Bangladesh. Features scalable theme architecture, responsive UI, local SEO optimization, Google indexing setup, and future-ready admin CMS structure.",
+
+    live: "https://sam-cafe.vercel.app/",
+
+    github: {
+      client: "https://github.com/YOUR_USERNAME/sam-cafe-client",
+      server: "https://github.com/YOUR_USERNAME/sam-cafe-server",
+    },
+
+    techStack: [
+      "React",
+      "Vite",
+      "Tailwind CSS v4",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React Helmet Async",
+      "Vercel",
+      "SEO Optimization"
+    ],
+
+    features: [
+      "Fully responsive modern cafe UI",
+      "Scalable multi-theme architecture",
+      "SEO optimized pages with dynamic meta tags",
+      "Google Search Console integration ready",
+      "robots.txt & sitemap.xml support",
+      "Local SEO targeting Khulna cafe searches",
+      "Gallery, featured menu, contact & map sections",
+      "Future-ready admin dashboard architecture",
+      "Blog-ready structure for content SEO scaling",
+      "Production-ready MERN architecture"
+    ],
+
+    seoKeywords: [
+      "Sam Cafe",
+      "Cafe in Khulna",
+      "Best coffee shop in Khulna",
+      "Coffee house in Khulna",
+      "PTI Mor cafe",
+      "New cafe in Khulna",
+      "Best cafe in town",
+    ],
+  },
+  {
+    name: "Bongsho - Interactive Family Tree Platform",
+    desc: "A modern SEO-optimized Bengali genealogy and ancestry platform for visualizing family lineage, relationships, and heritage through an interactive family tree system with protected admin controls and dynamic graph rendering.",
+
+    live: "https://bongsho.vercel.app/",
+
+    github: {
+      client: "https://github.com/Samiul2024/bongsho-client", // replace with actual repo
+      server: "https://github.com/Samiul2024/bongsho-server", // replace with actual repo
+    },
+
+    techStack: [
+      "React",
+      "React Flow",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "Firebase Authentication",
+      "TailwindCSS",
+      "Dagre Graph Layout",
+      "Vercel",
+      "Railway",
+      "SEO Optimization"
+    ],
+
+    features: [
+      "Interactive visual family tree rendering",
+      "Automatic relationship graph generation",
+      "JWT protected admin/owner dashboard",
+      "Role-based access control system",
+      "Add/Edit/Delete family members securely",
+      "Mobile responsive zoomable family graph",
+      "Dynamic DAG-based node positioning",
+      "SEO optimized for genealogy-related searches",
+      "React Flow powered relationship visualization",
+      "MongoDB powered ancestry data storage",
+      "Fast deployment architecture using Vercel & Railway"
+    ],
+
+    seoKeywords: [
+      "Mollick Family",
+      "Mollick Para",
+      "Mollick Bari",
+      "Mollick Family Tree",
+      "Mollick Para Nowapara",
+      "Bengali Genealogy",
+      "Bangladesh Family Tree",
+      "Bongsho",
+      "Ancestry Platform",
+      "Family Lineage"
+    ],
+  },
   {
     name: "Study Tracker App (Web + Mobile)",
     desc: "Developed a spaced-repetition-based study planner to boost memory retention with auto-scheduled review cycles.",
@@ -56,7 +198,8 @@ const projects = [
       "Auto scheduling of reviews",
       "Mobile and web responsive",
     ],
-  },
+  }
+  ,
   {
     name: "Awake Me - Alarm PWA",
     desc: "A progressive web application alarm clock with audio preview, silence button, and everyday only once repeat functionality.",
