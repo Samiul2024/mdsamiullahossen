@@ -52,10 +52,10 @@ const projects = [
 
     live: "https://aam-bari.vercel.app/",
 
-    github: {
-      client: "https://github.com/Samiul2024/AamBari-Client",
-      server: "https://github.com/Samiul2024/AamBari-Server",
-    },
+    // github: {
+    //   client: "https://github.com/Samiul2024/AamBari-Client",
+    //   server: "https://github.com/Samiul2024/AamBari-Server",
+    // },
 
     techStack: [
       "React",
@@ -94,10 +94,10 @@ const projects = [
 
     live: "https://sam-cafe.vercel.app/",
 
-    github: {
-      client: "https://github.com/YOUR_USERNAME/sam-cafe-client",
-      server: "https://github.com/YOUR_USERNAME/sam-cafe-server",
-    },
+    // github: {
+    //   client: "",
+    //   server: "",
+    // },
 
     techStack: [
       "React",
@@ -140,10 +140,10 @@ const projects = [
 
     live: "https://bongsho.vercel.app/",
 
-    github: {
-      client: "https://github.com/Samiul2024/bongsho-client", // replace with actual repo
-      server: "https://github.com/Samiul2024/bongsho-server", // replace with actual repo
-    },
+    // github: {
+    //   client: "https://github.com/Samiul2024/bongsho-client", 
+    //   server: "https://github.com/Samiul2024/bongsho-server", 
+    // },
 
     techStack: [
       "React",
@@ -152,7 +152,6 @@ const projects = [
       "Express.js",
       "MongoDB",
       "JWT Authentication",
-      "Firebase Authentication",
       "TailwindCSS",
       "Dagre Graph Layout",
       "Vercel",
