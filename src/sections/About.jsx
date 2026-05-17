@@ -5,10 +5,10 @@ export default function About() {
   const [fullscreenSrc, setFullscreenSrc] = useState("");
 
   const profileImg =
-    "https://i.ibb.co.com/Xk7KSPCC/COmpressedfav-Prof-Img.jpg";
+    "https://res.cloudinary.com/dejhl0l7a/image/upload/q_auto/f_auto/v1778990598/COmpressedfavProfImg_zp6zl5.jpg";
 
   const bannerImg =
-    "https://i.ibb.co.com/gZ2Mw7QN/portfolio-cover2.png"; 
+    "https://res.cloudinary.com/dejhl0l7a/image/upload/q_auto/f_auto/v1778990472/portfolio-cover2_ycghpv.png"; 
 
   // Handle ESC key to close modal
   useEffect(() => {
