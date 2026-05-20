@@ -49,10 +49,158 @@ export const projects = [
             "Fully deployed using Vercel",
         ],
     },
+
     {
         id: 2,
+        name: "AamBari",
+        category: "Mango Business Platform",
+
+        description:
+            "A modern SEO-optimized mango business platform for selling fresh chemical-free mangoes directly from Satkhira gardens across Bangladesh.",
+
+        liveLink: "https://aam-bari.vercel.app/",
+
+        techStack: [
+            "React",
+            "Vite",
+            "TailwindCSS",
+            "React Router",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Vercel",
+            "Framer Motion",
+            "SEO Optimization",
+        ],
+
+        features: [
+            "Responsive business landing page",
+            "SEO-ready architecture",
+            "Facebook Reel embed gallery",
+            "Fullscreen image preview",
+            "WhatsApp ordering integration",
+            "Messenger chat integration",
+            "Mobile-first design",
+            "Smooth animations",
+        ],
+    },
+
+    {
+        id: 3,
+        name: "Bongsho",
+        category: "Interactive Family Tree Platform",
+
+        description:
+            "A modern genealogy and ancestry platform for visualizing family lineage using interactive family tree systems.",
+
+        liveLink: "https://bongsho.vercel.app/",
+
+        techStack: [
+            "React",
+            "React Flow",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT Authentication",
+            "TailwindCSS",
+            "Dagre Graph Layout",
+            "Vercel",
+            "Railway",
+            "SEO Optimization",
+        ],
+
+        features: [
+            "Interactive family tree rendering",
+            "Relationship graph generation",
+            "JWT protected admin dashboard",
+            "Role-based access control",
+            "Zoomable family graph",
+            "Dynamic DAG node positioning",
+            "SEO optimized architecture",
+        ],
+    },
+
+    {
+        id: 4,
+        name: "Sam Cafe",
+        category: "SEO Optimized Cafe Website",
+
+        description:
+            "A modern SEO-focused cafe and restaurant website built for Sam Cafe in Khulna, Bangladesh.",
+
+        liveLink: "https://sam-cafe.vercel.app/",
+
+        techStack: [
+            "React",
+            "Vite",
+            "Tailwind CSS v4",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "React Helmet Async",
+            "Vercel",
+            "SEO Optimization",
+        ],
+
+        features: [
+            "Responsive cafe UI",
+            "Scalable multi-theme architecture",
+            "SEO optimized pages",
+            "Google Search Console ready",
+            "robots.txt & sitemap support",
+            "Local SEO optimization",
+            "Future-ready admin dashboard",
+        ],
+    },
+
+    {
+        id: 5,
+        name: "Mithu Vaier Shahi Chatpati & Fuska",
+        category: "Local Food Business Platform",
+
+        description:
+            "A premium SEO-optimized local food business website for showcasing Shahi Chatpati and Fuska with Facebook reel embeds, WhatsApp ordering, local SEO, and conversion-focused UI.",
+
+        liveLink: "https://mithu-vaiyer-shahi-chatpati-and-fus.vercel.app/",
+
+        techStack: [
+            "React",
+            "Vite",
+            "TailwindCSS",
+            "Framer Motion",
+            "React Helmet Async",
+            "Node.js",
+            "Express.js",
+            "MongoDB Atlas",
+            "JWT Authentication",
+            "Cloudinary",
+            "Vercel",
+            "Railway",
+            "SEO Optimization",
+        ],
+
+        features: [
+            "Premium mobile-first food landing page",
+            "WhatsApp ordering integration",
+            "Direct phone call integration",
+            "Facebook page integration",
+            "Facebook Reel style embeds",
+            "Local SEO optimization for Boyra Khulna",
+            "Google indexing ready setup",
+            "robots.txt & sitemap.xml support",
+            "Reusable scalable frontend architecture",
+            "Animated modern UI",
+            "Delivery information system",
+            "Customer review section with ratings",
+            "Production-ready MERN architecture",
+        ],
+    },
+
+    {
+        id: 6,
         name: "CareerCode",
         category: "Full Stack MERN Platform",
+
         description:
             "A full-stack career guidance and practice platform with secure authentication, social login, and protected backend APIs built using the MERN stack.",
 
@@ -90,7 +238,7 @@ export const projects = [
     },
 
     {
-        id: 3,
+        id: 7,
         name: "Coffee Store App",
         category: "Full Stack CRUD App",
 
@@ -114,110 +262,7 @@ export const projects = [
     },
 
     {
-        id: 4,
-        name: "AamBari",
-        category: "Mango Business Platform",
-
-        description:
-            "A modern SEO-optimized mango business platform for selling fresh chemical-free mangoes directly from Satkhira gardens across Bangladesh.",
-
-        liveLink: "https://aam-bari.vercel.app/",
-
-        techStack: [
-            "React",
-            "Vite",
-            "TailwindCSS",
-            "React Router",
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "Vercel",
-            "Framer Motion",
-            "SEO Optimization",
-        ],
-
-        features: [
-            "Responsive business landing page",
-            "SEO-ready architecture",
-            "Facebook Reel embed gallery",
-            "Fullscreen image preview",
-            "WhatsApp ordering integration",
-            "Messenger chat integration",
-            "Mobile-first design",
-            "Smooth animations",
-        ],
-    },
-
-    {
-        id: 5,
-        name: "Sam Cafe",
-        category: "SEO Optimized Cafe Website",
-
-        description:
-            "A modern SEO-focused cafe and restaurant website built for Sam Cafe in Khulna, Bangladesh.",
-
-        liveLink: "https://sam-cafe.vercel.app/",
-
-        techStack: [
-            "React",
-            "Vite",
-            "Tailwind CSS v4",
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "React Helmet Async",
-            "Vercel",
-            "SEO Optimization",
-        ],
-
-        features: [
-            "Responsive cafe UI",
-            "Scalable multi-theme architecture",
-            "SEO optimized pages",
-            "Google Search Console ready",
-            "robots.txt & sitemap support",
-            "Local SEO optimization",
-            "Future-ready admin dashboard",
-        ],
-    },
-
-    {
-        id: 6,
-        name: "Bongsho",
-        category: "Interactive Family Tree Platform",
-
-        description:
-            "A modern genealogy and ancestry platform for visualizing family lineage using interactive family tree systems.",
-
-        liveLink: "https://bongsho.vercel.app/",
-
-        techStack: [
-            "React",
-            "React Flow",
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "JWT Authentication",
-            "TailwindCSS",
-            "Dagre Graph Layout",
-            "Vercel",
-            "Railway",
-            "SEO Optimization",
-        ],
-
-        features: [
-            "Interactive family tree rendering",
-            "Relationship graph generation",
-            "JWT protected admin dashboard",
-            "Role-based access control",
-            "Zoomable family graph",
-            "Dynamic DAG node positioning",
-            "SEO optimized architecture",
-        ],
-    },
-
-    {
-        id: 7,
+        id: 8,
         name: "Study Tracker App",
         category: "Study Planner",
 
@@ -239,7 +284,7 @@ export const projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: "Awake Me",
         category: "Alarm PWA",
 
@@ -260,7 +305,7 @@ export const projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: "Bills Payment & Management",
         category: "Finance Management Platform",
 
@@ -287,7 +332,7 @@ export const projects = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: "The Dragon News Portal",
         category: "News Platform",
 
@@ -313,7 +358,7 @@ export const projects = [
     },
 
     {
-        id: 11,
+        id: 12,
         name: "Lawyer Booking App",
         category: "Appointment Booking Platform",
 
