@@ -11,19 +11,19 @@ import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 const featuredProjects = [
     {
-        id: "samshift",
+        id: "1",
         name: "SamShift – Parcel Delivery System",
         live: "https://sam-shift-client.vercel.app/",
         desc: "Advanced MERN logistics system with payments, tracking & analytics.",
     },
     {
-        id: "careercode",
+        id: "2",
         name: "CareerCode MERN Platform",
         live: "https://career-code-dd759.web.app/",
         desc: "Secure full-stack platform with authentication & protected APIs.",
     },
     {
-        id: "aambari",
+        id: "4",
         name: "AamBari Mango Platform",
         live: "https://aam-bari.vercel.app/",
         desc: "SEO optimized business platform with conversion-focused UI.",
