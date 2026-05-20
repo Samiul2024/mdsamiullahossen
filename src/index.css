@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom reusable styles */
+.btn-primary {
+  @apply bg-primary text-white px-5 py-2 rounded-lg shadow hover:scale-105 hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white px-5 py-2 rounded-lg shadow hover:scale-105 transition;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-soft hover:shadow-xl transition-all duration-300;
+}

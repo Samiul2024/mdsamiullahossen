@@ -5,10 +5,10 @@ export default function About() {
   const [fullscreenSrc, setFullscreenSrc] = useState("");
 
   const profileImg =
-    "https://res.cloudinary.com/dejhl0l7a/image/upload/q_auto/f_auto/v1778990598/COmpressedfavProfImg_zp6zl5.jpg";
+    "https://i.ibb.co.com/Xk7KSPCC/COmpressedfav-Prof-Img.jpg";
 
   const bannerImg =
-    "https://res.cloudinary.com/dejhl0l7a/image/upload/q_auto/f_auto/v1778990472/portfolio-cover2_ycghpv.png"; 
+    "https://i.ibb.co.com/gZ2Mw7QN/portfolio-cover2.png"; // replace with your banner
 
   // Handle ESC key to close modal
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function About() {
         <h4 className="text-xs mt-1">I'm</h4>
         <h3 className="text-2xl font-semibold mt-2">MD. Samiulla Hossen</h3>
         <p className="mt-3 text-gray-700 max-w-2xl mx-auto">
-          MERN Stack Developer passionate about building fast,
+          MERN Stack Front-End Developer passionate about building fast,
           accessible, and beautiful web applications.
         </p>
       </div>

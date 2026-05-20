@@ -31,10 +31,7 @@ export default function Skills() {
     { name: "WordPress", icon: <FaWordpress className="text-blue-800" /> },
     { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
     { name: "Notion", icon: <SiNotion className="text-black" /> },
-    { name: "SEO", icon: <TbTools className="text-gray-600" /> },
-    { name: "Render", icon: <TbTools className="text-gray-600" /> },
-    { name: "Railway", icon: <TbTools className="text-gray-600" /> },
-    { name: "Google Indexing", icon: <TbTools className="text-gray-600" /> },
+    // { name: "Productivity", icon: <TbTools className="text-gray-600" /> },
   ];
 
   return (
