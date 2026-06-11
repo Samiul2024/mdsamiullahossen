@@ -2,7 +2,8 @@ import { useState } from "react";
 
 export default function Resume() {
   const [showResume, setShowResume] = useState(false);
-  const resumeId = "1YwYYwlFuTsxo4CvOnKzrrkRtHDTF9d-A";
+  const resumeId = "1KjhUCKyeiNgn9sCNK88AaPlgOa-cznNI";
+
 
   return (
     <section className="text-center p-6 bg-blue-50">
