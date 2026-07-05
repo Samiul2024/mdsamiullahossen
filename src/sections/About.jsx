@@ -5,7 +5,7 @@ export default function About() {
   const [fullscreenSrc, setFullscreenSrc] = useState("");
 
   const profileImg =
-    "https://i.ibb.co.com/Xk7KSPCC/COmpressedfav-Prof-Img.jpg";
+    "https://res.cloudinary.com/dejhl0l7a/image/upload/v1783242831/portfolio_image_b7c0wf.jpg";
 
   const bannerImg =
     "https://i.ibb.co.com/gZ2Mw7QN/portfolio-cover2.png"; // replace with your banner
